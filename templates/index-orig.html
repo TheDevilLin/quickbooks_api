@@ -1,0 +1,28 @@
+<div class="container">
+<h1><?=$user->name?></h1>
+<table class="table table-striped">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+
+        </thead>
+        <tbody>
+        <?php
+            foreach($results as $result){
+        ?>
+            <tr>
+                <td><?=$result->id?></td>
+
+                <td><?=$result->name?></td>
+
+                <td><?=$result->email?></td>
+            </tr>
+        <?php
+            }
+        ?>
+        </tbody>
+    </table>
+</div>
