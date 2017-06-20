@@ -1,3 +1,5 @@
+Reference https://github.com/intuit/QuickBooks-V3-PHP-SDK
+
 # quickbooks_api
 Testing Quickbooks API
 
